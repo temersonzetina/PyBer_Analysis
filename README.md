@@ -1,16 +1,16 @@
 # PyBer_Analysis
 
 ## Overview
-The purpose of this analysis is to provide insights to executives of PyBer, a ride-sharing company, about the company's key results over the course of a 4-month span in 2019 by city type (urban, suburban, and rural). Equipped with the information provided herein, executives will be able to observe trends and disparities that can inform strategic priorities moving forward.
+The purpose of this analysis is to provide insights to executives at PyBer, a ride-sharing company, about the company's key results over the course of a 4-month span in 2019 by city type (urban, suburban, and rural). Equipped with the information provided herein, executives will be able to observe trends and disparities that can inform strategic priorities moving forward.
 
 The steps involved in conducting this analysis are immediately below:
 
 1. Clean and merge the key data sources, which include (1) a file with ride-level data and (2) a file with information about each city's driver counts (NOTE: The ride-level file captured information from January through April 2019, hence the findings below derive from data from that period alone)
-* Gather aggregate indicators by city type (Total Rides, Total Drivers, and Total Fares)
-* Use these aggregate indicators to calculate Average Fare/Ride and Average Fare/Driver
-* Visualize these data into a table
-* Calculate and store fare totals by date and city type
-* Visualize these totals in a line plot
+2. Gather aggregate indicators by city type (Total Rides, Total Drivers, and Total Fares)
+3. Use these aggregate indicators to calculate Average Fare/Ride and Average Fare/Driver
+4. Visualize these data into a table
+5. Calculate and store fare totals by date and city type
+6. Visualize these totals in a line plot
 
 ## Results
 The figure below illustrates the differences in key results by city type. The sub-sections that follow describe these differences in context.
@@ -21,7 +21,7 @@ The figure below illustrates the differences in key results by city type. The su
 Rural towns had fewer rides (125) than suburban (625) and urban (1625) locales. Larger populations seem to predict more usage in terms of ride-sharing services.
 
 ### Total Drivers
-The differences in total drivers by city type were far greater than differences in total rides, both in absolute terms and proportionality. The number of rural rides was one-fifth that of suburban rides, which were around 40% of urban rides. But the number of rural drivers was around one-sixth the number of suburban drivers, which were just 20% of the total number of urban drivers. The differences in total rides and total drivers represent important considerations for managing supply given demand (see summary below).
+The differences in total drivers by city type were far greater than differences in total rides, both in absolute terms and proportionality. The number of rural rides was one-fifth that of suburban rides, which were around 40% of urban rides. But the number of rural drivers was around one-sixth the number of suburban drivers, which were just 20% of the total number of urban drivers. The differences in total rides and total drivers represent important considerations for managing supply given demand (see summary section below).
 
 ### Total Fares
 The proportion of total fares in rural areas to total fares in suburban areas was similar (roughly one-fifth) to the proportion of total drivers between these two city types. By contrast, suburban total fares were nearly half that of total fares in urban areas, which is well over double the proportion between these two in terms of total drivers.
@@ -37,7 +37,7 @@ The chart below demonstrates total fares for each week between the beginning of 
 
 ![Fares_by_week](https://github.com/temersonzetina/PyBer_Analysis/blob/main/PyBer_fare_summary.png)
 
-The plot trajectories share similarities and a few differences. Both urban and suburban areas began the calendar year on upward trends, whereas rural area performance was up and down. All three city types hit peaks in late February, and experienced varying levels of volatility in March. Rural and urban areas were on the decline towards the end of the period of study, while the suburbs began to gain steam.
+The plot trajectories share several similarities while also differing in multiple ways. Both urban and suburban areas began the calendar year on upward trends, whereas rural area performance was up and down. All three city types hit peaks in late February, and experienced varying levels of volatility in March. Rural and urban areas were on the decline towards the end of the period of study, while the suburbs began to gain steam.
 
 ## Summary
 In light of the information presented above, below are three business considerations for addressing disparities and increasing revenue -
