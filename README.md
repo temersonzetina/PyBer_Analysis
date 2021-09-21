@@ -15,7 +15,7 @@ The steps involved in conducting this analysis are immediately below:
 ## Results
 The figure below illustrates the differences in key results by city type. The sub-sections that follow describe these differences in context.
 
-<IMAGE>
+![Ride data dataframe](https://github.com/temersonzetina/PyBer_Analysis/blob/main/PyBer_ride_data_by_city_type.png)
 
 ### Total Rides
 Rural towns had fewer rides (125) than suburban (625) and urban (1625) locales. Larger populations seem to predict more usage in terms of ride-sharing services.
@@ -35,7 +35,7 @@ Differences by city type in terms of average fare per driver were even greater t
 ### Total Fare by City Type (Chart)
 The chart below demonstrates total fares for each week between the beginning of January and the end of April 2019. Each line plot represents one of the three city types. 
 
-<LINE PLOT>
+![Fares_by_week]( )
 
 The plot trajectories share similarities and a few differences. Both urban and suburban areas began the calendar year on upward trends, whereas rural area performance was up and down. All three city types hit peaks in late February, and experienced varying levels of volatility in March. Rural and urban areas were on the decline towards the end of the period of study, while the suburbs began to gain steam.
 
