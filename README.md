@@ -33,9 +33,9 @@ Rural fares per ride were around 13% higher than suburban fares, which were arou
 Differences by city type in terms of average fare per driver were even greater than differences in Average Fare per Ride. Rural areas' average fare per driver was around 40% higher than that of suburban drivers. Suburban drivers, in turn, had an average fare that was approximately 1.5 times that of urban drivers.
 
 ### Total Fare by City Type (Chart)
-The chart below demonstrates total fares for each week between the beginning of January and the end of April 2019. Each line plot represents one of the three city types. 
+The chart below demonstrates total fares for each week between the beginning of January and the end of April 2019. Each line plot represents one of the three city types.
 
-![Fares_by_week]( )
+![Fares_by_week](https://github.com/temersonzetina/PyBer_Analysis/blob/main/PyBer_fare_summary.png)
 
 The plot trajectories share similarities and a few differences. Both urban and suburban areas began the calendar year on upward trends, whereas rural area performance was up and down. All three city types hit peaks in late February, and experienced varying levels of volatility in March. Rural and urban areas were on the decline towards the end of the period of study, while the suburbs began to gain steam.
 
